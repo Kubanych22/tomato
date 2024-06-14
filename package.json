@@ -12,7 +12,7 @@
     ">0.5%"
   ],
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --open",
     "build-dev": "webpack",
     "build-prod": "webpack --node-env=production",
     "clear": "rd /s /q dist"
